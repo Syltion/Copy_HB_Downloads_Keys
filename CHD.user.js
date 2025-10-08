@@ -5,8 +5,8 @@
 // @author       Syltion
 // @namespace    https://github.com/Syltion/Copy_HB_Downloads_Keys
 // @supportURL   https://github.com/Syltion/Copy_HB_Downloads_Keys/issues
-// @updateURL    https://github.com/Syltion/Copy_HB_Downloads_Keys/raw/master/CHD.user.js
-// @downloadURL  https://github.com/Syltion/Copy_HB_Downloads_Keys/raw/master/CHD.user.js
+// @updateURL    https://github.com/Syltion/Copy_HB_Downloads_Keys/raw/main/CHD.user.js
+// @downloadURL  https://github.com/Syltion/Copy_HB_Downloads_Keys/raw/main/CHD.user.js
 // @icon         https://humblebundle-a.akamaihd.net/static/hashed/46cf2ed85a0641bfdc052121786440c70da77d75.png
 // @include      https://www.humblebundle.com/downloads*
 // @grant        none
