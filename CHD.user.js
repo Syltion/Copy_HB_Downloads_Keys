@@ -15,6 +15,8 @@
 // ==/UserScript==
 
 (function () {
+    var item_bundle = document.getElementsByClassName('papers-content')[0].innerText;
+    item_bundle = item_bundle.substring(5);
     const key_list_to_string = function (key_list) {
         var s = "";
         for (var i = 0; i < key_list.length; ++i) {
@@ -35,9 +37,9 @@
     const getGameInfo = function (el) {
         var item_name = el.getElementsByClassName('heading-text')[0].innerText;
         var item_key = el.getElementsByClassName('keyfield-value')[0].innerText;
-        var item_bundle = el.getElementsByClassName('hibtext')[0].innerText;
+        // var item_bundle = el.getElementsByClassName('hibtext')[0].innerText;
 
-        return { 'game_name': item_name, "key": item_key, "bundle_name": item_bundle };
+        return { 'game_name': item_name, "key": item_key };
     }
     const mergeCanvas = function (canvasList, baseCanvas) {
         // merge all canvasList to baseCanvas
