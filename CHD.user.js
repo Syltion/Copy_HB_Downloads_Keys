@@ -16,7 +16,7 @@
 
 (function () {
     var item_bundle = document.getElementsByClassName('papers-content')[0].innerText;
-    item_bundle = item_bundle.substring(5,item_bundle.indexOf("\n"));
+    item_bundle = item_bundle.substring(5,item_bundle.indexOf("\n")-1);
     const key_list_to_string = function (key_list) {
         var s = "";
         for (var i = 0; i < key_list.length; ++i) {
