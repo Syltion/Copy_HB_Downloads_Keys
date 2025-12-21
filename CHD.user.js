@@ -97,7 +97,7 @@
             if (key_redeemer_list[i].getElementsByClassName('js-keyfield keyfield redeemed enabled').length == 0) {
                 // key unvailed
                 _p_elem.setAttribute('style', 'boarder:1px solid red');
-                _selec_elem.checked = false;
+                _selec_elem.checked = true; //当无key时改为可复选，复制进表要占位
                 _selec_elem.disabled = true;
                 _selec_label_elem.textContent = "游戏名：" + getGameName(key_redeemer_list[i]) + "!!!KEY不可见!!!";
             }
